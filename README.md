@@ -74,6 +74,12 @@ Install dependencies
 
 pip install -r requirements.txt
 
+
+#  to run this module
+cd C:\OneDrive\Desktop\AI-agent\event-recommender
+python -m src.main
+
+
 ▶️ Usage
 
 Example usage once dependencies are installed:
