@@ -1,5 +1,5 @@
-from data import past_events
-from agent import event_agent
+from .data import past_events
+from .agent import event_agent
 
 new_event = {
     "event_type": "wedding",
