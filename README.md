@@ -28,15 +28,19 @@ It helps users discover relevant events efficiently and increases participation 
 
 ## 📁 Project Structure
 
-
 event-recommender/
-├── src/ # Core Python code (recommendation logic)
-│ ├── recommender.py # Main recommender class
-│ ├── data_loader.py # Data loading & preprocessing
-│ └── utils.py # Helper functions
+├── src/ # Core Python code
+│ ├── agent.py
+│ ├── data.py
+│ ├── decision.py
+│ ├── encoder.py
+│ ├── generate.py
+│ ├── main.py # Entry point
+│ ├── scorer.py
+│ └── similarity.py
 ├── requirements.txt # Python dependencies
-├── .gitignore # Files to ignore in Git
-└── README.md # Project documentation (this file)
+├── .gitignore
+└── README.md
 
 
 ---
